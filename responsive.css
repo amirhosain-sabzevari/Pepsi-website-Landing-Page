@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+    .content .textBox h2 {
+        font-size: 2rem;
+    }
+
+    .content .textBox p {
+        padding-top: 20px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .content {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .content .textBox { 
+    margin-right: 30px;
+    text-align: center;
+    margin: 50px auto 20px;
+   }
+
+   .content .imgBox img {
+    margin: 0px auto 40px;
+   }
+}
